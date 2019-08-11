@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style type="text/css">
+    @-webkit-keyframes rightan {
+      from {
+        top: 0%;
+        opacity: 0;
+      }
+      to {
+        top: 5%;
+        opacity: 1;
+      }
+    }
+    .rightan {
+      -webkit-animation: rightan 2s infinite;
+      -webkit-animation-fill-mode: both;
+    }
+    .img {
+      width: 30px;
+      position: absolute;
+    }
+    .box {
+      height: 200px;
+      width: 300px;
+      background: #f00;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <img class="img rightan" src="./arrow.png" />
+  </div>
+</body>
+</html>
