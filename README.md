@@ -1,4 +1,6 @@
 # css-tool
-css常用动画
+css 常用小工具
 
 1.arrow-guide 箭头引导动画
+2.shapes 常用形状
+  1) 六边形
