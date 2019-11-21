@@ -6,4 +6,5 @@ css 常用小工具
   1) 六边形（正六边形，旋转30度六边形，蜂巢）
 3.transform 变换
 4.textOverflow 文字过长显示省略号
-5.nodePos 获取元素当前位置
+5.css 改变svg颜色
+
